@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Python",
+            "type": "process",
+            "command": "${config:python.pythonPath}",
+            "args": [
+                "debug/my_test.py"
+            ],
+            "presentation": {
+                "focus": false,
+                "clear": true
+            },
+            "options": {
+                "shell": {
+                    "executable": "bash"
+                },
+                "env": {
+                    "HOMEDRIVE": "C:",
+                    "HOMESHARE": "${workspaceFolder}"
+                },
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Test",
+            "type": "process",
+            "command": "${config:python.pythonPath}",
+            "args": [
+                "${file}"
+            ],
+            "group": "test"
+        }
+    ]
+}

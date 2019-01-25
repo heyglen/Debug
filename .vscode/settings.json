@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.cursorStyle": "line",
+    "workbench.panel.defaultLocation": "right",
+    "python.workspaceSymbols.ctagsPath": "C:\\Users\\ghar\\AppData\\Roaming\\ctags\\ctags.exe",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "python.pythonPath": "C:\\Users\\ghar\\AppData\\Local\\Programs\\Python\\Python36\\python.exe"
+}
